@@ -562,6 +562,25 @@ footer {
     .navbar {
         position: relative;
     }
+
+    .modal-nav button {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 50%;
+        width: 42px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal-nav button .nav-text {
+        display: none;
+    }
+
+    .modal-nav button i {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -581,5 +600,24 @@ footer {
 
     .box {
         width: 90%;
+    }
+
+    .modal-nav button {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 50%;
+        width: 42px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal-nav button .nav-text {
+        display: none;
+    }
+
+    .modal-nav button i {
+        font-size: 18px;
     }
 }
