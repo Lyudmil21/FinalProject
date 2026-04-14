@@ -31,6 +31,6 @@ function renderMeals(meals) {
         mealList.appendChild(li);
 
         observer.observe(card);
-        card.style.transitionDelay = `${index * 0.03}s`;
+        card.style.transitionDelay = `${index * 0.02}s`;
     });
 }
