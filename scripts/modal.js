@@ -1,4 +1,4 @@
-import { getMealById } from "/js/api.js";
+import { getMealById } from "/scripts/api.js";
 
 const modal = document.getElementById("mealModal");
 const title = document.getElementById("modalTitle");

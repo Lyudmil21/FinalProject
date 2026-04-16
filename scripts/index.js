@@ -1,7 +1,7 @@
-import { loadMeals } from "/js/meals.js";
-import { setupModalNavigation } from "/js/modal.js";
-import { setupForm } from "/js/form.js";
-import { observer } from "/js/observer.js";
+import { loadMeals } from "/scripts/meals.js";
+import { setupModalNavigation } from "/scripts/modal.js";
+import { setupForm } from "/scripts/form.js";
+import { observer } from "/scripts/observer.js";
 
 const searchBtn = document.getElementById("searchBtn");
 const resetBtn = document.getElementById("resetBtn");

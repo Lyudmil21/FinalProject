@@ -1,6 +1,6 @@
-import { getMeals } from "/js/api.js";
-import { openModal } from "/js/modal.js";
-import { observer } from "/js/observer.js";
+import { getMeals } from "/scripts/api.js";
+import { openModal } from "/scripts/modal.js";
+import { observer } from "/scripts/observer.js";
 
 const mealList = document.getElementById("mealList");
 
