@@ -23,6 +23,10 @@ export function setupModalNavigation() {
             showMeal(mealsCache[currentIndex]);
         }
     });
+
+    document.getElementById("closeModal").addEventListener("click", () => {
+    modal.classList.remove("show");
+    });
 }
 
 export async function openModal(id, index, allMeals = []) {

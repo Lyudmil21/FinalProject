@@ -411,6 +411,22 @@ section p {
     transform: scale(1.08); 
 }
 
+#closeModal {
+    background: var(--primary);
+    color: var(--text);
+    border: none;
+    padding: 14px 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+#closeModal:hover {
+    background: var(--primary-dark);
+    transform: scale(1.04); 
+}
+
 #contact {
     position: relative;
     min-height: 90vh;
@@ -582,6 +598,15 @@ footer {
     .modal-nav button i {
         font-size: 18px;
     }
+
+    #searchInput {
+        width: 100%;
+    }
+
+    #closeModal {
+        top: 10px;
+        right: 10px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -620,5 +645,14 @@ footer {
 
     .modal-nav button i {
         font-size: 18px;
+    }
+
+    #searchInput {
+        width: 100%;
+    }
+    
+    #closeModal {
+        top: 10px;
+        right: 10px;
     }
 }
