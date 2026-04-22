@@ -39,10 +39,3 @@ function renderMeals(meals, animate = true) {
         }
     });
 }
-
-const searchInput = document.getElementById("searchInput");
-
-searchInput.addEventListener("input", (e) => {
-    const value = e.target.value.trim();
-    loadMeals(value);
-});

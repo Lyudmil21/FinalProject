@@ -14,4 +14,9 @@ export function initSearch() {
         searchInput.value = "";
         loadMeals();
     });
+
+    searchInput.addEventListener("input", (e) => {
+    const value = e.target.value.trim();
+    loadMeals(value);
+    });
 }
